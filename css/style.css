@@ -1,0 +1,48 @@
+h2{
+    text-align: center;
+        margin: auto;
+        overflow-y: auto;
+        margin-top: 23px;
+        margin-bottom: 23px;
+}
+.container{
+    max-width: 555px;
+    background-color: rgb(145, 193, 233);
+    box-shadow: 10px 8px 5px rgb(37, 122, 192);
+    margin: auto;
+    height:300px;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+}
+.message{
+    background-color: rgb(197, 191, 191);
+    width: 200px;
+    margin: 4px;
+    border: 1px solid black;
+}
+.left{
+    float: left;
+    clear: both;
+}
+.right{
+    float:right;
+    clear: both;
+}
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 555px;
+    width: 100%;
+}
+#message{
+    /* background-color: grey; */
+    width:89%;
+    padding: 5px;
+    border: 1px solid black;
+}
+.btn{
+    cursor: pointer;
+    border: 1px solid black;
+}
